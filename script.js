@@ -95,7 +95,7 @@ function shakeField(id) {
 
 // --- INTERSECTION OBSERVER ANIMATIONS ---
 const animateEls = document.querySelectorAll(
-  '.feature-card, .service-card, .why-card, .pricing-card, .deploy-card, .contact-item, .trust-badge'
+  '.feature-card, .service-card, .why-card, .pricing-card, .deploy-card, .contact-item, .trust-badge, .security-card'
 );
 
 animateEls.forEach(el => el.classList.add('animate-in'));
